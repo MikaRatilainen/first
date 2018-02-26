@@ -40,7 +40,7 @@ class CountVowels extends React.Component {
 
 	render() {
 		return (
-			<div class="lesson">
+			<div className="lesson">
 				<h3>Подсчет гласных</h3>
 				<input type="text" onChange={this.handleChange} />
 				<p>{this.state.output}</p>

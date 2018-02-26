@@ -7,7 +7,7 @@ class Text extends React.Component {
 	render() {
 		return (
 			<div>
-				<h1>Задачи с текстами</h1>
+				<h1>Задачи со строками</h1>
 				 <table>
 	   				 <tbody>
 	    				<tr>

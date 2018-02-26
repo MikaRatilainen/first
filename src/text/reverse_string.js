@@ -27,7 +27,7 @@ class ReverseString extends Component {
 
 	render() {
 		return (
-			<div class="lesson">
+			<div className="lesson">
 			  <h3>Обратная строка</h3>
 			  <input type="text" onChange={this.handleChange} />
 			  <p>{this.reverseString(this.state.userInput)}</p>

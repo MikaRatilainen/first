@@ -8,7 +8,7 @@ class PigLatin extends React.Component {
 
 		this.handleChange = this.handleChange.bind(this);
 		this.handleClick = this.handleClick.bind(this);
-		this.add = this.add.bind(this);
+		this.handleEnter = this.handleEnter.bind(this);
 	}
 
 	handleChange(e) {
@@ -29,7 +29,7 @@ class PigLatin extends React.Component {
 		});
 	}
 
-	add(event) {
+	handleEnter(event) {
 		if (event.charCode === 13) {
 			this.handleClick();
 		};
@@ -37,9 +37,9 @@ class PigLatin extends React.Component {
 
 	render() {
 		return (
-			<div class="lesson">
+			<div className="lesson">
 				<h3>Pig Latin</h3>
-				<input type="text" onChange={this.handleChange} onKeyPress={this.add} />
+				<input type="text" onChange={this.handleChange} onKeyPress={this.handleEnter} />
 				<input type="button" onClick={this.handleClick} value="Pig it!" />
 				<p>{this.state.pigText}</p>
 			</div>

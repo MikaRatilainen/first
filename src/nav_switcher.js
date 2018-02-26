@@ -1,6 +1,7 @@
 import React from 'react';
 import Text from './text.js';
-import Numbers from './numbers.js';
+//import Numbers from './numbers.js';
+import Arrays from './arrays.js';
 
 class NavSwitcher extends React.Component {
 	constructor(props) {
@@ -9,7 +10,8 @@ class NavSwitcher extends React.Component {
 		this.state = { flag: <Text /> };
 
 		this.handleSwitchToText = this.handleSwitchToText.bind(this);
-		this.handleSwitchToNumber = this.handleSwitchToNumber.bind(this);
+		this.handleSwitchToArrays = this.handleSwitchToArrays.bind(this);
+		//this.handleSwitch = this.handleSwitch.bind(this);
 	}
 
 	handleSwitchToText() {
@@ -18,18 +20,24 @@ class NavSwitcher extends React.Component {
 		});
 	}
 
-	handleSwitchToNumber() {
+	handleSwitchToArrays() {
 		this.setState({
-			flag: <Numbers />
+			flag: <Arrays />
 		});
 	}
+
+/*	handleSwitch(e) {
+		this.setState({
+			flag: <e.target.value />
+		});
+	}*/
 
 	render() {
 		return (
 			<div>
 				<nav>
-	      			<button class="navbutton" onClick={this.handleSwitchToText}>Text</button>
-	      			<button class="navbutton" onClick={this.handleSwitchToNumber}>Numbers</button>
+	      			<button className="navbutton" onClick={this.handleSwitchToText} value="Text">Text</button>
+	      			<button className="navbutton" onClick={this.handleSwitchToArrays} value="Arrays">Arrays</button>
 	    		</nav>
 	    		<div>{this.state.flag}</div>
     		</div>

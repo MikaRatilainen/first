@@ -40,7 +40,7 @@ input[type=text] {
     border-radius: 3px;
 }
 
-input[type=button] {
+input[type=button], select {
     border: 2px solid gray;
     background-color: rgb(21,204,194);
     border-radius: 3px;
