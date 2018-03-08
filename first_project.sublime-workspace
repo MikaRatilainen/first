@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"p",
+				"props"
+			],
+			[
+				"in",
+				"inputArray"
+			],
+			[
+				"M",
+				"MdnArray"
+			],
+			[
+				"ha",
+				"handleMdnArray"
+			],
+			[
 				"li",
 				"link\tTag"
 			],
@@ -76,11 +92,39 @@
 	"buffers":
 	[
 		{
-			"file": "public/index.html",
+			"file": "/C/Users/mihai/apps/aventica/public/index.html",
 			"settings":
 			{
-				"buffer_size": 608,
+				"buffer_size": 8197,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/nav_switcher.js",
+			"settings":
+			{
+				"buffer_size": 1336,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/mdn/array.js",
+			"settings":
+			{
+				"buffer_size": 533,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/mdn/array/length.js",
+			"settings":
+			{
+				"buffer_size": 232,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -121,27 +165,32 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/mihai/apps/1/first"
+		"/C/Users/mihai/apps/1/first",
+		"/C/Users/mihai/apps/1/first/src",
+		"/C/Users/mihai/apps/1/first/src/array",
+		"/C/Users/mihai/apps/1/first/src/mdn",
+		"/C/Users/mihai/apps/1/first/src/mdn/array",
+		"/C/Users/mihai/apps/1/first/src/text"
 	],
 	"file_history":
 	[
+		"/C/Users/mihai/apps/1/first/src/array/supermarket_queue.js",
+		"/C/Users/mihai/apps/1/first/src/text/reverse_string.js",
+		"/C/Users/mihai/apps/1/first/src/text/pig_latin.js",
+		"/C/Users/mihai/apps/1/first/src/text/count_vowels.js",
+		"/C/Users/mihai/apps/1/first/src/nav_switcher.js",
+		"/C/Users/mihai/apps/1/first/src/index.js",
+		"/C/Users/mihai/apps/1/first/public/index.html",
 		"/C/Users/mihai/apps/torro-new/index.css",
 		"/C/Users/mihai/apps/torro-new/index.html",
 		"/C/Users/mihai/apps/torro/src/index.css",
 		"/C/Users/mihai/apps/torro/public/index.html",
 		"/C/Users/mihai/apps/torro/src/index.js",
-		"/C/Users/mihai/apps/1/first/src/array/supermarket_queue.js",
 		"/C/Users/mihai/apps/1/first/src/arrays.js",
-		"/C/Users/mihai/apps/1/first/src/nav_switcher.js",
-		"/C/Users/mihai/apps/1/first/src/index.js",
 		"/C/Users/mihai/apps/1/first/src/index.css",
 		"/C/Users/mihai/apps/1/first/css/bootstrap.css",
-		"/C/Users/mihai/apps/1/first/public/index.html",
-		"/C/Users/mihai/apps/1/first/src/text/pig_latin.js",
 		"/C/Users/mihai/apps/1/first/src/text.js",
 		"/C/Users/mihai/apps/1/first/node_modules/aria-query/lib/elementRoleMap.js",
-		"/C/Users/mihai/apps/1/first/src/text/count_vowels.js",
-		"/C/Users/mihai/apps/1/first/src/text/reverse_string.js",
 		"/C/Users/mihai/apps/1/first/src/numbers.js",
 		"/C/Users/mihai/apps/1/first/src/App.js",
 		"/C/Users/mihai/apps/1/first/src/reverse_string/reverse_string.js",
@@ -191,24 +240,24 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 3,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "public/index.html",
+					"file": "/C/Users/mihai/apps/aventica/public/index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 608,
+						"buffer_size": 8197,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								235,
+								235
 							]
 						],
 						"settings":
@@ -216,6 +265,92 @@
 							"syntax": "Packages/HTML/HTML.sublime-syntax",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/nav_switcher.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1336,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								283,
+								283
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/mdn/array.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 533,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								186,
+								186
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/mdn/array/length.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 232,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								205,
+								205
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,

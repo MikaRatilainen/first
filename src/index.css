@@ -27,8 +27,21 @@ nav {
   
 }
 
+.navbutton2 {
+  margin: 3px;
+  border: 1px solid gray;
+  background-color: gray;
+  border-radius: 5px;
+  color: rgb(21,204,194);
+  height: 20px;
+  width: 50px;
+  font-size: 10px;
+  
+}
+
 h1, h3 {
   color: rgb(21,204,194);
+  margin: 5px;
 }
 
 p {
@@ -71,6 +84,7 @@ tr {
   background: #f4f7f8;
   border-bottom: 1px solid #FFF;
   margin-bottom: 5px;
+  width: 100%;
 }
 
 th, td {
@@ -83,4 +97,9 @@ th, td {
   border: 2px solid gray;
   border-radius: 3px;
   background-color: rgb(235,235,235);
+}
+
+.copy-within {
+  display: inline-block;
+  width: 150px;
 }
