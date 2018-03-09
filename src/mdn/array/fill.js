@@ -55,7 +55,7 @@ class MdnFill extends React.Component {
 	render() {
 		return (
 			<div>
-				<h3>Array.prototype.copyWithin()</h3>
+				<h3>Array.prototype.fill()</h3>
 				<div className='copy-within 1'>
 					<p>Value</p>
 					<input className='little-input' onChange={this.handleChangeValue}></input>
