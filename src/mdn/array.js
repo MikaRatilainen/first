@@ -1,8 +1,11 @@
 import React from 'react';
 import MdnLength from './array/length.js';
 import MdnIsArray from './array/isarray.js';
-import MdnConcat from './array/concat.js'
-import MdnCopyWithin from './array/copywithin.js'
+import MdnConcat from './array/concat.js';
+import MdnCopyWithin from './array/copywithin.js';
+import MdnEntries from './array/entries.js';
+import MdnEvery from './array/every.js';
+import MdnFill from './array/fill.js';
 
 class MdnArray extends React.Component {
 	constructor(props) {
@@ -22,7 +25,7 @@ class MdnArray extends React.Component {
 		return (
 			<div>
 				<input type='text' onChange={this.handleChange}></input>
-				<h3>Свойства</h3>
+				<h3>Свойство</h3>
 				 <table>
 	   				 <tbody>
 	    				<tr>
@@ -37,6 +40,11 @@ class MdnArray extends React.Component {
 	      					<td><MdnIsArray value={this.state.inputArray} /></td>
 	      					<td><MdnConcat value={this.state.inputArray} /></td>
 	      					<td><MdnCopyWithin value={this.state.inputArray} /></td>
+	    				</tr>
+	    				<tr>
+	      					<td><MdnEntries value={this.state.inputArray} /></td>
+	      					<td><MdnEvery value={this.state.inputArray} /></td>
+	      					<td><MdnFill value={this.state.inputArray} /></td>
 	    				</tr>
 	    			</tbody>
 	  			</table>

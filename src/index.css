@@ -103,3 +103,14 @@ th, td {
   display: inline-block;
   width: 150px;
 }
+
+.little-input {
+  width: 80px;
+  border: 2px solid gray;
+  border-radius: 3px;
+}
+
+.little-button {
+  width: 50px;
+  height: 30px;
+}

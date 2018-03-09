@@ -22,7 +22,7 @@ class MdnConcat extends React.Component {
 	render() {
 		return (
 			<div>
-				<h3>Array.prototype.concat</h3>
+				<h3>Array.prototype.concat()</h3>
 				<input type='text' onChange={this.handleChange}></input>
 				<p>[{this.output()}]</p>
 			</div>
